@@ -1,0 +1,193 @@
+/*Fonts Google: Roboto*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/*Reset CSS*/
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Style of body*/
+
+body {
+    background-color: #121214;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: auto;
+}
+
+/*Login Content*/
+
+main {
+    height: 50vh;
+}
+
+.logo-instagram {
+    max-width: 500px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.email-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300px;
+    font-size: 13px;
+    background-color: #212121;
+    border-style: none;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+.password-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 300px;
+    height: 30px;
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300px;
+    font-size: 13px;
+    background-color: #212121;
+    border-style: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.forget-content {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #1E90FF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300px;
+}
+
+.button-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+}
+
+.btn {
+    max-width: 500px;
+    width: 300px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    background-color: #1E90FF;
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.facebook-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    place-items: center;
+    margin-top: 10px;
+    padding: auto;
+}
+
+.paragraph-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+.strong-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+}
+
+.icon-facebook {
+    max-width: 70px;
+    width: 50px;
+}
+
+/*End of login content*/
+
+/*Footer content*/
+
+.login-info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px; 
+    justify-content: center;
+    color: #1E90FF;
+}
+
+.login-info2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px; 
+    justify-content: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.link-info {
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    margin-left: 5px;
+    color: #1E90FF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/*End of footer content*/
