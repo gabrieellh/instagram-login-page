@@ -24,10 +24,6 @@ body {
 
 /*Login Content*/
 
-main {
-    height: 50vh;
-}
-
 .logo-instagram {
     max-width: 500px;
     width: 200px;
@@ -83,14 +79,17 @@ main {
 }
 
 
-.forget-content {
+.forget-content-link {
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    place-items: center;
+    padding-left: 175px;
     color: #1E90FF;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 13px;
-    font-weight: 300px;
 }
 
 .button-content {

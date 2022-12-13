@@ -1,0 +1,195 @@
+/*Fonts Google: Roboto*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*Reset CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    background-color: #ffffff;
+    margin: auto;
+    padding: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.logo-instagram {
+    max-width: 500px;
+    width: 200px;
+    height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+
+}
+
+.paragraph-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    place-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin: auto;
+    padding: auto;
+}
+
+
+.facebook-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    place-items: center;
+    margin-top: 10px;
+    padding: auto;
+
+}
+
+.facebook-content-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    border-style: none;
+    background-color: #1E90FF;
+    color: #ffffff;
+    cursor: pointer;
+    max-width: 400px;
+    width: 250px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.icon-facebook {
+    max-width: 70px;
+    width: 50px;
+}
+
+.generic-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    place-items: center;
+    gap: 5px;
+    
+}
+
+#email {
+    max-width: 400px;
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+#fullname {
+    max-width: 400px;
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+#username {
+    max-width: 400px;
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+#password {
+    max-width: 400px;
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.button-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: auto;
+}
+
+.btn {
+    max-width: 400px;
+    width: 250px;
+    height: 30px;
+    background-color: #1E90FF;
+    border-style: none;
+    border-radius: 5px; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+/*Quando o usuario passar o mouse no botão:*/
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.paragraph-content2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    font-family: "Robot", sans-serif;
+    font-weight: 300;
+    color: #5c5c5c;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding: auto;
+}
+
+.link-footer-content {
+    color: #1E90FF;
+}
